@@ -74,7 +74,7 @@ function App() {
                 <div className="tab-item">
                   <div className="tab-item-product">
                     <div className="tab-item2">
-                      <h4><img src={collection} className="img"/></h4>
+                      <h4><img src={collection} className="img" alt:"img"/></h4>
                     </div>
                     <div className="tab-item2">
                       <h4>Price Per NFT</h4><br/><b>0.16 ETH </b>
