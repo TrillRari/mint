@@ -1,6 +1,5 @@
-import { useState, useEffect } from 'react';
+import { useState} from 'react';
 import { ethers } from 'ethers';
-import Wallet from './artifacts/contracts/Wallet.sol/Wallet.json';
 import logo from './images/logo.png';
 import collection from './images/hape.gif'
 import './App.css';
@@ -50,7 +49,7 @@ function App() {
     <div className="App">
  
       <div className="header">
-          <img src={logo} alt="img" />
+          <img src={logo} alt="logo" />
       </div>
        
       <div className="container">
